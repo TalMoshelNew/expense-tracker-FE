@@ -14,7 +14,6 @@ import {store} from './store/store'
 function App() {
 
   const selectTransactions = useSelector(state => state.transactions.transactions);
-  console.log('redux: ',selectTransactions)
 
 
 
